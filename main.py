@@ -1,6 +1,5 @@
-from flask import Flask, jsonify, request,render_template, url_for
+from flask import Flask, request,render_template
 import math
-import re
 
 app = Flask(__name__)
 
